@@ -9,7 +9,7 @@ This document shows the possible causes that makes the voltage of the DC line, t
     * Ethernet cable disconnection/cut between the TMA-PXI and the MPS (TMA-AZ-CS-CBT-0001, TMA-PI-CS-CBT-0101, TMA-AZ-DR-CBT-0001).
     * Switch off the TMA-AZ-CS-CBT-0001 cabinet.
     * Switch off the TMA-PI-CS-CBT-0101 cabinet.
-    * Put TMA-PXI EtherCAT in configuration mode using the NI distributed system manager or any other tool (see [Manage EtherCAT line status](https://gitlab.tekniker.es/publico/3151-lsst/documentation/maintenancedocuments/ethercat/manageethercatlinestatus)).
+    * Put TMA-PXI EtherCAT in configuration mode using the NI distributed system manager or any other tool (see [Manage EtherCAT line status](https://github.com/lsst-ts/ts_tma_tma-documentation_maintenance-documents_ethercat_manage-ethercat-line-status)).
 2. Aux-PXI reboot. The Aux-PXI has the control of the MPS, and we it starts it will ask to the MPS to switch off.
 3. Push Emergency Push button in any of the capacitor banks cabinets. The capacitor banks controller will discharge the capacitor banks
 4. Earthquake interlock from GIS. TMA-IS will send to the capacitor banks controller to discharge, according to the TMA-IS safety matrix.
